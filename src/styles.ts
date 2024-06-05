@@ -6,12 +6,13 @@ const EstiloGlobal = createGlobalStyle`
     padding: 0;
     font-family: "Inter", sans-serif;
     list-style: none;
+    text-decoration: none;
   }
 
   body {
     padding-top: 80px;
     padding-bottom: 80px;
-
+    background-color: ${(props) => props.theme.corFundo};
     @media (max-width: 768px) {
       padding-top: 16px;
     }
