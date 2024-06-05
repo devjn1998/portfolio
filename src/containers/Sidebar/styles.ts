@@ -10,6 +10,7 @@ export const Botao = styled.button`
   font-weight: bold;
   padding: 8px;
   border-radius: 12px;
+  border: none;
   color: ${(props) => props.theme.corFundo};
   background-color: ${(props) => props.theme.corDeFundoBotao};
   cursor: pointer;
